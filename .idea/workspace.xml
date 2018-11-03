@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b12fbdbb-aa6f-4550-ac40-0647d28654a9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/routes.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,7 +30,7 @@
           <entry key="babelrc" value="1" />
           <entry key="css" value="1" />
           <entry key="gitattributes" value="2" />
-          <entry key="gitignore" value="2" />
+          <entry key="gitignore" value="3" />
           <entry key="js" value="20" />
           <entry key="json" value="4" />
         </counts>
@@ -40,15 +40,15 @@
           <entry key="CSS" value="1" />
           <entry key="JSON" value="5" />
           <entry key="JavaScript" value="20" />
-          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="PLAIN_TEXT" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="gitignore" value="18" />
+          <entry key="gitignore" value="25" />
           <entry key="js" value="2570" />
           <entry key="json" value="294" />
-          <entry key="txt" value="1074" />
+          <entry key="txt" value="1117" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -56,7 +56,7 @@
           <entry key="HTML" value="7" />
           <entry key="JSON" value="294" />
           <entry key="JavaScript" value="2563" />
-          <entry key="PLAIN_TEXT" value="1092" />
+          <entry key="PLAIN_TEXT" value="1142" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -77,14 +77,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/client/routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="253">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -141,7 +150,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.babelrc" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/client/components/home/index.js" />
         <option value="$PROJECT_DIR$/webpack.base.js" />
         <option value="$PROJECT_DIR$/webpack.client.js" />
@@ -151,6 +159,7 @@
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/helpers/renderer.js" />
         <option value="$PROJECT_DIR$/src/client/routes.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -216,7 +225,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="pack&#9;FILE&#9;file:///Users/scotpfleghaar/WebstormProjects/ServerSideReact/package.json&#10;pac&#9;FILE&#9;file:///Users/scotpfleghaar/WebstormProjects/ServerSideReact/package.json&#10;packa&#9;FILE&#9;file:///Users/scotpfleghaar/WebstormProjects/ServerSideReact/package.json" />
+    <property name="SearchEverywhereHistoryKey" value="giti&#9;FILE&#9;file:///Users/scotpfleghaar/WebstormProjects/ServerSideReact/.gitignore&#10;pack&#9;FILE&#9;file:///Users/scotpfleghaar/WebstormProjects/ServerSideReact/package.json&#10;pac&#9;FILE&#9;file:///Users/scotpfleghaar/WebstormProjects/ServerSideReact/package.json&#10;packa&#9;FILE&#9;file:///Users/scotpfleghaar/WebstormProjects/ServerSideReact/package.json" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.12.0" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -248,7 +257,7 @@
       <updated>1541207193004</updated>
       <workItem from="1541207196218" duration="8695000" />
       <workItem from="1541253142597" duration="1000" />
-      <workItem from="1541260766140" duration="3994000" />
+      <workItem from="1541260766140" duration="4168000" />
     </task>
     <task id="LOCAL-00001" summary="Creating a simple react component to create a simple isomorphic react app.">
       <created>1541208445233</created>
@@ -362,11 +371,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541277309793</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Example of creating different routes">
+      <created>1541278013962</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1541278013962</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12690000" />
+    <option name="totallyTimeSpent" value="12864000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -423,7 +439,8 @@
     <MESSAGE value="Express should handle universal routes so that react router can handle all routes." />
     <MESSAGE value="Setting up client routes" />
     <MESSAGE value="Setting up server routes using static router" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setting up server routes using static router" />
+    <MESSAGE value="Example of creating different routes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Example of creating different routes" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/node_modules/express/lib/express.js">
@@ -456,13 +473,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -536,11 +546,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/client/routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="253">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
