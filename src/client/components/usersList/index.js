@@ -13,7 +13,7 @@ class UsersList extends Component {
                 return <li key={`${userName}-${index}`}>{userName}</li>
             })
         } else {
-            return <li key={'loading'}>loading....</li>
+            return <div>loading....</div>
         }
     }
 
