@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b12fbdbb-aa6f-4550-ac40-0647d28654a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/client/reducers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/reducers/usersReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/components/usersList/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/components/usersList/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/components/usersList/index.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -29,35 +30,35 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="babelrc" value="1" />
-          <entry key="css" value="1" />
+          <entry key="css" value="2" />
           <entry key="gitattributes" value="2" />
           <entry key="gitignore" value="3" />
-          <entry key="js" value="25" />
-          <entry key="json" value="4" />
+          <entry key="js" value="26" />
+          <entry key="json" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="1" />
-          <entry key="JSON" value="5" />
-          <entry key="JavaScript" value="25" />
+          <entry key="CSS" value="2" />
+          <entry key="JSON" value="6" />
+          <entry key="JavaScript" value="26" />
           <entry key="PLAIN_TEXT" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="25" />
-          <entry key="js" value="3577" />
-          <entry key="json" value="294" />
-          <entry key="txt" value="1248" />
+          <entry key="js" value="4135" />
+          <entry key="json" value="299" />
+          <entry key="txt" value="1323" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="7" />
-          <entry key="JSON" value="294" />
-          <entry key="JavaScript" value="3570" />
-          <entry key="PLAIN_TEXT" value="1273" />
+          <entry key="JSON" value="299" />
+          <entry key="JavaScript" value="4128" />
+          <entry key="PLAIN_TEXT" value="1348" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -66,18 +67,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/client/routes.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -94,16 +83,7 @@
         <entry file="file://$PROJECT_DIR$/src/helpers/firestore.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="276">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -111,8 +91,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/client/client.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" selection-start-line="5" selection-end-line="7" selection-end-column="37" />
+            <state relative-caret-position="184">
+              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+              <folding>
+                <element signature="e#49#75#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -120,8 +103,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/helpers/createStore.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            <state relative-caret-position="138">
+              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
               </folding>
@@ -129,14 +112,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/helpers/renderer.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/client/components/usersList/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+            <state relative-caret-position="232">
+              <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/client/components/usersList/index.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="118">
+              <caret line="6" column="10" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -144,8 +141,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/client/actions/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+            <state relative-caret-position="230">
+              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -153,17 +150,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/client/reducers/usersReducer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            <state relative-caret-position="207">
+              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/client/reducers/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="115">
-              <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+              <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -176,7 +173,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>get</find>
+      <find>applyMiddleWare</find>
     </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -188,18 +189,19 @@
         <option value="$PROJECT_DIR$/src/client/components/home/index.js" />
         <option value="$PROJECT_DIR$/webpack.base.js" />
         <option value="$PROJECT_DIR$/webpack.client.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/webpack.server.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/client/routes.js" />
         <option value="$PROJECT_DIR$/src/helpers/firestore.js" />
-        <option value="$PROJECT_DIR$/src/client/client.js" />
-        <option value="$PROJECT_DIR$/src/helpers/createStore.js" />
-        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/helpers/renderer.js" />
-        <option value="$PROJECT_DIR$/src/client/actions/index.js" />
         <option value="$PROJECT_DIR$/src/client/reducers/usersReducer.js" />
         <option value="$PROJECT_DIR$/src/client/reducers/index.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/client/actions/index.js" />
+        <option value="$PROJECT_DIR$/src/client/client.js" />
+        <option value="$PROJECT_DIR$/src/helpers/createStore.js" />
+        <option value="$PROJECT_DIR$/src/client/components/usersList/index.js" />
       </list>
     </option>
   </component>
@@ -256,6 +258,35 @@
               <item name="ServerSideReact" type="b2602c69:ProjectViewProjectNode" />
               <item name="ServerSideReact" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="actions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ServerSideReact" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ServerSideReact" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ServerSideReact" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ServerSideReact" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="usersList" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ServerSideReact" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ServerSideReact" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="reducers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ServerSideReact" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ServerSideReact" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="helpers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -265,13 +296,18 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="giti&#9;FILE&#9;file:///Users/scotpfleghaar/WebstormProjects/ServerSideReact/.gitignore&#10;pack&#9;FILE&#9;file:///Users/scotpfleghaar/WebstormProjects/ServerSideReact/package.json&#10;pac&#9;FILE&#9;file:///Users/scotpfleghaar/WebstormProjects/ServerSideReact/package.json&#10;packa&#9;FILE&#9;file:///Users/scotpfleghaar/WebstormProjects/ServerSideReact/package.json" />
+    <property name="SearchEverywhereHistoryKey" value="pa&#9;FILE&#9;file:///Users/scotpfleghaar/WebstormProjects/ServerSideReact/package.json&#10;giti&#9;FILE&#9;file:///Users/scotpfleghaar/WebstormProjects/ServerSideReact/.gitignore&#10;pack&#9;FILE&#9;file:///Users/scotpfleghaar/WebstormProjects/ServerSideReact/package.json&#10;pac&#9;FILE&#9;file:///Users/scotpfleghaar/WebstormProjects/ServerSideReact/package.json&#10;packa&#9;FILE&#9;file:///Users/scotpfleghaar/WebstormProjects/ServerSideReact/package.json" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.12.0" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/client/components" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -297,7 +333,7 @@
       <updated>1541207193004</updated>
       <workItem from="1541207196218" duration="8695000" />
       <workItem from="1541253142597" duration="1000" />
-      <workItem from="1541260766140" duration="8068000" />
+      <workItem from="1541260766140" duration="9099000" />
     </task>
     <task id="LOCAL-00001" summary="Creating a simple react component to create a simple isomorphic react app.">
       <created>1541208445233</created>
@@ -446,11 +482,25 @@
       <option name="project" value="LOCAL" />
       <updated>1541340273839</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Setting up reducers">
+      <created>1541340725188</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1541340725188</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Cleaning up errors and getting project to build again.">
+      <created>1541341190316</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1541341190316</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16764000" />
+    <option name="totallyTimeSpent" value="17795000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -512,7 +562,9 @@
     <MESSAGE value="Setting up firebase project" />
     <MESSAGE value="Server and Client stores" />
     <MESSAGE value="Making the call to get data in the actions." />
-    <option name="LAST_COMMIT_MESSAGE" value="Making the call to get data in the actions." />
+    <MESSAGE value="Setting up reducers" />
+    <MESSAGE value="Cleaning up errors and getting project to build again." />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleaning up errors and getting project to build again." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/node_modules/express/lib/express.js">
@@ -569,13 +621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/react-router/es/StaticRouter.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
@@ -593,6 +638,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/helpers/renderer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/helpers/firestore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/client/routes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -603,70 +682,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/helpers/firestore.js">
+    <entry file="file://$PROJECT_DIR$/src/client/reducers/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="115">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/reducers/usersReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/actions/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/client/client.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" selection-start-line="5" selection-end-line="7" selection-end-column="37" />
+        <state relative-caret-position="184">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+          <folding>
+            <element signature="e#49#75#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/helpers/createStore.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        <state relative-caret-position="138">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
           <folding>
             <element signature="e#0#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
+    <entry file="file://$PROJECT_DIR$/src/client/components/usersList/index.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/components/usersList/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="232">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/helpers/renderer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/actions/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/reducers/usersReducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/reducers/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
