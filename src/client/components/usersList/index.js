@@ -4,13 +4,17 @@ import {fetchUsers} from '../../actions';
 
 class UsersList extends Component {
     componentDidMount() {
-        //this.props.fetchUsers();
+        this.props.fetchUsers();
     }
 
     renderUser() {
-        return this.props.users.map(userName => {
-            return <li>{userName}</li>
-        })
+        if (this.props.users.users) {
+            return this.props.users.users.map((userName, index)  => {
+                return <li key={`${userName}-${index}`}>{userName}</li>
+            })
+        } else {
+            return <li key={'loading'}>loading....</li>
+        }
     }
 
     render() {

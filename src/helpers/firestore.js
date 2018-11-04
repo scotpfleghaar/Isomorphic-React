@@ -10,5 +10,10 @@ const config = {
     messagingSenderId: "785454221019"
 };
 firebase.initializeApp(config);
+const db = firebase.firestore();
+// Disable deprecated features
+db.settings({
+    timestampsInSnapshots: true
+});
 
-export default firebase;
+export default db;
