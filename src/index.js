@@ -3,7 +3,7 @@ import express from 'express';
 import renderer from './helpers/renderer';
 import createStore from './helpers/createStore';
 import Routes from './client/routes.js';
-import { matchRoutes } from 'react-router-config'
+import {matchRoutes} from 'react-router-config'
 
 const app = express();
 const port = 3000;
@@ -19,7 +19,11 @@ app.get('*', (req, res) => {
         return route.loadData && route.loadData(store);
     });
 
-    res.send(renderer(req, store));
+    Promise.all(promises).then(() => {
+        res.send(renderer(req, store));
+    }).catch(err => {
+        console.warn(err)
+    });
 });
 
 app.listen(port, () => {
