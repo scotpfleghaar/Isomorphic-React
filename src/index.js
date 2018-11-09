@@ -15,8 +15,8 @@ app.get('*', (req, res) => {
     // is ever called
     const store = createStore();
 
-    matchRoutes(Routes, req.path).map(({route}) => {
-        return route.loadData && route.loadData();
+    const promises = matchRoutes(Routes, req.path).map(({route}) => {
+        return route.loadData && route.loadData(store);
     });
 
     res.send(renderer(req, store));
