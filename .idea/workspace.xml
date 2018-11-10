@@ -3,10 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="b12fbdbb-aa6f-4550-ac40-0647d28654a9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/actions/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/components/usersList/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/components/usersList/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/reducers/usersReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/reducers/usersReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/components/home/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/components/app/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/components/home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/components/app/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/components/home/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/components/app/index.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/components/usersList/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/components/users-list/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/components/usersList/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/components/users-list/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/components/usersList/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/components/users-list/index.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/routes.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -87,13 +90,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="js" value="1306" />
-          <entry key="txt" value="144" />
+          <entry key="txt" value="181" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JavaScript" value="1306" />
-          <entry key="PLAIN_TEXT" value="144" />
+          <entry key="PLAIN_TEXT" value="181" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -105,8 +108,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+            <state relative-caret-position="281">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -115,7 +118,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/components/usersList/index.js">
+        <entry file="file://$PROJECT_DIR$/src/client/components/users-list/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="111">
               <caret line="8" selection-start-line="8" selection-end-line="8" />
@@ -282,6 +285,13 @@
               <item name="ServerSideReact---Isomorphic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ServerSideReact---Isomorphic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ServerSideReact---Isomorphic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="reducers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -335,7 +345,7 @@
       <workItem from="1541207196218" duration="8695000" />
       <workItem from="1541253142597" duration="1000" />
       <workItem from="1541260766140" duration="11829000" />
-      <workItem from="1541724920274" duration="6853000" />
+      <workItem from="1541724920274" duration="8060000" />
     </task>
     <task id="LOCAL-00001" summary="Creating a simple react component to create a simple isomorphic react app.">
       <created>1541208445233</created>
@@ -526,11 +536,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541733108234</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Loading data on initial load.">
+      <created>1541737754681</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1541737754681</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27378000" />
+    <option name="totallyTimeSpent" value="28585000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -549,11 +566,11 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="2" sideWeight="0.52019584" side_tool="true" visible="true" weight="0.32883817" />
+      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.52019584" side_tool="true" visible="true" weight="0.32883817" />
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.5008157" side_tool="true" weight="0.3137255" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" content_ui="combo" id="Project" order="6" sideWeight="0.47980416" visible="true" weight="0.32883817" />
+      <window_info active="true" anchor="bottom" content_ui="combo" id="Project" order="6" sideWeight="0.47980416" visible="true" weight="0.32883817" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -571,7 +588,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Setting up webpack so that we can run React from a babel build and then serve that node.js" />
     <MESSAGE value="Initial Server Side Render" />
     <MESSAGE value="Added Build directory to gitignore." />
     <MESSAGE value="Setting up a better workflow" />
@@ -596,20 +612,21 @@
     <MESSAGE value="Fixing and tying up firebase" />
     <MESSAGE value="LoadData function in place." />
     <MESSAGE value="setting up the LoadData function to return a promise that index can then wait for all promises before rendering the data." />
-    <option name="LAST_COMMIT_MESSAGE" value="setting up the LoadData function to return a promise that index can then wait for all promises before rendering the data." />
+    <MESSAGE value="Loading data on initial load." />
+    <option name="LAST_COMMIT_MESSAGE" value="Loading data on initial load." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/node_modules/express/lib/express.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/express/index.js" />
-    <entry file="file://$PROJECT_DIR$/src/client/components/home/index.css">
+    <entry file="file://$PROJECT_DIR$/src/client/components/app/index.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/components/home/index.test.js">
+    <entry file="file://$PROJECT_DIR$/src/client/components/app/index.test.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.babelrc" />
     <entry file="file://$PROJECT_DIR$/build/bundle.js" />
-    <entry file="file://$PROJECT_DIR$/src/client/components/home/index.js">
+    <entry file="file://$PROJECT_DIR$/src/client/components/app/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
@@ -669,7 +686,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/components/usersList/index.css">
+    <entry file="file://$PROJECT_DIR$/src/client/components/users-list/index.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/helpers/firestore.js">
@@ -741,7 +758,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/components/usersList/index.js">
+    <entry file="file://$PROJECT_DIR$/src/client/components/users-list/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
@@ -753,8 +770,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        <state relative-caret-position="281">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>

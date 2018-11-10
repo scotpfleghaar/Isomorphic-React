@@ -1,6 +1,6 @@
 import React from 'react';
-import Home from './components/home';
-import UsersList, { loadData } from  './components/usersList';
+import Home from './components/app';
+import UsersList, { loadData } from './components/users-list';
 
 export default [
     {
