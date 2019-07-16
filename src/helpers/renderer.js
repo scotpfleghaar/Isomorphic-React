@@ -5,6 +5,11 @@ import Routes from '../client/routes';
 import {StaticRouter} from 'react-router-dom';
 import {renderRoutes} from 'react-router-config';
 
+if (process.env.NODE_ENV !== 'production') {
+    const {whyDidYouUpdate} = require('why-did-you-update');
+    whyDidYouUpdate(React);
+}
+
 export default (req, store) => {
     const content = renderToString(
         <Provider store={store}>

@@ -1,18 +1,24 @@
 import React from 'react';
 import Header from "../header";
+import Hero from '../Section/Hero'
+
 const Home = () => {
     return (
-        <div>
+        <React.Fragment>
             <Header/>
-            <span>I'm the main component</span>
-            <button onClick={() => console.log('Activated')}>Press Me!</button>
+            <div className="container">
+                <div className="row">
+                    <div className="col-12">
+                        <Hero/>
+                    </div>
+                </div>
+                <iframe width="600"
+                        height="600"
+                        src="https://ionicabizau.github.io/github-profile-languages/api.html?scotpfleghaar"
+                        frameBorder="0"/>
 
-            <iframe width="600"
-                    height="600"
-                    src="https://ionicabizau.github.io/github-profile-languages/api.html?scotpfleghaar"
-                    frameBorder="0"/>
-
-        </div>
+            </div>
+        </React.Fragment>
     )
 };
 
