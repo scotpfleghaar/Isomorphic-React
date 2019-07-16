@@ -2,7 +2,7 @@ import React from 'react';
 import Header from "../header";
 import Hero from '../Section/Hero'
 
-const Home = () => {
+export const Home = () => {
     return (
         <React.Fragment>
             <Header/>
