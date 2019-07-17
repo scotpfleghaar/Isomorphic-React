@@ -1,6 +1,8 @@
+const nodeExternals = require('webpack-node-externals')
 module.exports = {
     // Tell webpack to run babel on
     // every file it runs through on client and server.
+    externals: [nodeExternals()],
     module: {
         rules: [
             {
@@ -20,6 +22,10 @@ module.exports = {
                         ]
                     ]
                 }
+            },
+            {
+                test: /\.(jpe?g|png|gif|svg|ico)$/i,
+                use: 'url-loader?limit=8192'
             }
         ]
     }

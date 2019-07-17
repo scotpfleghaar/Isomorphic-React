@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from "../header";
 import Hero from '../Section/Hero'
-
+import ImageLeft from '../Section/Hero/ImageLeft'
 export const Home = () => {
     return (
         <React.Fragment>
@@ -10,13 +10,9 @@ export const Home = () => {
                 <div className="row">
                     <div className="col-12">
                         <Hero/>
+                        <ImageLeft/>
                     </div>
                 </div>
-                <iframe width="600"
-                        height="600"
-                        src="https://ionicabizau.github.io/github-profile-languages/api.html?scotpfleghaar"
-                        frameBorder="0"/>
-
             </div>
         </React.Fragment>
     )

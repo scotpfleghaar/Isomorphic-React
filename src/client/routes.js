@@ -8,10 +8,4 @@ export default [
         component: Home,
         exact: true
     },
-    {
-        loadData,
-        path: '/users',
-        component: UsersList,
-        exact: true
-    }
 ]
